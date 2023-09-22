@@ -1,0 +1,215 @@
+Rufus x86 v3.21.1949 (Portable)
+Windows version: Windows 10 Home Single Language, 64-bit (Build 19045.3208)
+Syslinux versions: 4.07/2013-07-25, 6.04/pre1
+Grub versions: 0.4.6a, 2.06
+System locale ID: 0x0809 (en-GB)
+Will use default UI locale 0x0809
+SetLGP: Successfully set NoDriveTypeAutorun policy to 0x0000009E
+Localization set to 'en-US'
+Notice: The ISO download feature has been deactivated because 'Check for updates' is disabled in your settings.
+Found USB 2.0 device 'Kingston DataTraveler 3.0 USB Device' (0951:1666)
+NOTE: This device is a USB 3.0 device operating at lower speed...
+Found USB 3.0 device 'Apacer Portable HDD USB Device' (1005:C004)
+Device eliminated because it was detected as a Hard Drive (score 28 > 0)
+If this device is not a Hard Drive, please e-mail the author of this application
+NOTE: You can enable the listing of Hard Drives under 'advanced drive properties'
+1 device found
+Disk type: Removable, Disk size: 64 GB, Sector size: 512 bytes
+Cylinders: 7538, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: SFD (Super Floppy Disk) or unpartitioned
+Scanning image...
+ISO analysis:
+  Image is an ISO9660 image
+  Will use '/syslinux/syslinux.cfg' for Syslinux
+  Detected Syslinux version: 6.04/pre2-11-gbf6db5b4 (from '/syslinux/isolinux.bin')
+Disk image analysis:
+  Image has an unknown Master Boot Record
+  Image is a bootable disk image
+ISO label: 'EOS_202303'
+  Size: 1.8 GB (Projected)
+  Uses: Syslinux/Isolinux v6.04
+  Uses: EFI
+Using image: EndeavourOS_Cassini_Nova-03-2023_R1.iso (1.9 GB)
+Downloading https://rufus.ie/files/syslinux-6.04/pre2-11-gbf6db5b4/ldlinux.sys
+Unable to access file: 404
+Extended version was not found, trying main version...
+Downloading https://rufus.ie/files/syslinux-6.04/ldlinux.sys
+File length: 66.5 KB
+Successfully downloaded 'ldlinux.sys'
+Download signature is valid ✓
+Downloading https://rufus.ie/files/syslinux-6.04/pre2-11-gbf6db5b4/ldlinux.bss
+Unable to access file: 404
+Extended version was not found, trying main version...
+Downloading https://rufus.ie/files/syslinux-6.04/ldlinux.bss
+File length: 512 bytes
+Successfully downloaded 'ldlinux.bss'
+Download signature is valid ✓
+
+Format operation started
+Requesting disk access...
+Will use 'F:' as volume mountpoint
+Warning: Could not delete partition(s): [0x80070032] The request is not supported.
+Opened \\.\PhysicalDrive2 for shared write access
+Requesting logical volume handle...
+I/O boundary checks disabled
+Analyzing existing boot records...
+Drive has an unknown Master Boot Record
+Clearing MBR/PBR/GPT structures...
+Erasing 2176 sectors
+Initializing disk...
+Partitioning (MBR)...
+● Creating Main Data Partition (offset: 1048576, size: 57.7 GB)
+Closing existing volume...
+Waiting for logical drive to reappear...
+Formatting (Large FAT32)...
+Opened \\?\Volume{a1d29f5f-2596-11ee-a118-f76c96865a2b} for exclusive write access
+Size : 57.7 GB 121108480 sectors
+Cluster size 32768 bytes, 512 bytes per sector
+Volume ID is 18f2:1e5c
+32 Reserved sectors, 14781 sectors per FAT, 2 FATs
+1891857 Total clusters
+1891856 Free clusters
+Clearing out 29658 sectors for reserved sectors, FATs and root cluster...
+Initializing reserved sectors and FATs...
+FAT #0 sector at address: 32
+FAT #1 sector at address: 14813
+Writing Partition Boot Record...
+Using Standard FAT32 partition boot record
+Confirmed new volume has a primary FAT32 boot sector
+Setting primary FAT32 boot sector for boot...
+Confirmed new volume has a secondary FAT32 boot sector
+Setting secondary FAT32 boot sector for boot...
+Setting label...
+Format completed.
+Writing Master Boot Record...
+Partition is already FAT32 LBA...
+Set bootable USB partition as 0x80
+Using Syslinux MBR
+Found volume \\?\Volume{a1d29f5f-2596-11ee-a118-f76c96865a2b}\
+Installing Syslinux 6.04...
+Opened \\?\Volume{a1d29f5f-2596-11ee-a118-f76c96865a2b} for shared write access
+Using existing 'C:\Users\Atom\Desktop\Rufus\syslinux-6.04/pre2-11-gbf6db5b4\ldlinux.sys' ✓
+Using existing 'C:\Users\Atom\Desktop\Rufus\syslinux-6.04/pre2-11-gbf6db5b4\ldlinux.bss' ✓
+Successfully wrote 'ldlinux.sys'
+Successfully wrote Syslinux boot record
+Successfully remounted \\?\Volume{a1d29f5f-2596-11ee-a118-f76c96865a2b}\ as F:
+Extracting files...
+Image is an ISO9660 image
+This image will be extracted using Joliet extensions (if present)
+Extracting: F:\EFI\BOOT\BOOTx64.EFI (90 KB)
+Extracting: F:\arch\boot\amd-ucode.img (50 KB)
+Extracting: F:\arch\boot\intel-ucode.img (6.7 MB)
+Extracting: F:\arch\boot\licenses\amd-ucode\LICENSE.amd-ucode (3.7 KB)
+Extracting: F:\arch\boot\licenses\intel-ucode\LICENSE (1.6 KB)
+Extracting: F:\arch\boot\licenses\memtest86+\license.txt (17.7 KB)
+Extracting: F:\arch\boot\memtest (140.9 KB)
+Extracting: F:\arch\boot\x86_64\initramfs-linux.img (92.3 MB)
+Extracting: F:\arch\boot\x86_64\vmlinuz-linux (11.9 MB)
+Extracting: F:\arch\grubenv (1 KB)
+Extracting: F:\arch\pkglist.x86_64.txt (17.1 KB)
+Extracting: F:\arch\version (11 bytes)
+Extracting: F:\arch\x86_64\airootfs.sfs (1.7 GB)
+Extracting: F:\arch\x86_64\airootfs.sha512 (143 bytes)
+Extracting: F:\loader\entries\archiso-x86_64-linux-nv.conf (423 bytes)
+Extracting: F:\loader\entries\archiso-x86_64-linux.conf (420 bytes)
+Extracting: F:\loader\entries\fallback.conf (313 bytes)
+Extracting: F:\loader\loader.conf (49 bytes)
+Extracting: F:\shellx64.efi (1011.4 KB)
+Extracting: F:\syslinux\archiso_head.cfg (810 bytes)
+Extracting: F:\syslinux\archiso_pxe-linux.cfg (1.3 KB)
+Extracting: F:\syslinux\archiso_pxe.cfg (82 bytes)
+Extracting: F:\syslinux\archiso_sys-linux.cfg (1.6 KB)
+Extracting: F:\syslinux\archiso_sys.cfg (109 bytes)
+Extracting: F:\syslinux\archiso_tail.cfg (694 bytes)
+Extracting: F:\syslinux\boot.cat (2 KB)
+Extracting: F:\syslinux\cat.c32 (1.6 KB)
+Extracting: F:\syslinux\chain.c32 (24.5 KB)
+Extracting: F:\syslinux\cmd.c32 (1.2 KB)
+Extracting: F:\syslinux\cmenu.c32 (3.6 KB)
+Extracting: F:\syslinux\config.c32 (1.4 KB)
+Extracting: F:\syslinux\cptime.c32 (4.1 KB)
+Extracting: F:\syslinux\cpu.c32 (4.4 KB)
+Extracting: F:\syslinux\cpuid.c32 (1.7 KB)
+Extracting: F:\syslinux\cpuidtest.c32 (2.7 KB)
+Extracting: F:\syslinux\debug.c32 (1.5 KB)
+Extracting: F:\syslinux\dhcp.c32 (4.1 KB)
+Extracting: F:\syslinux\dir.c32 (2.9 KB)
+Extracting: F:\syslinux\disk.c32 (2.0 KB)
+Extracting: F:\syslinux\dmi.c32 (8.5 KB)
+Extracting: F:\syslinux\dmitest.c32 (12.2 KB)
+Extracting: F:\syslinux\elf.c32 (3.2 KB)
+Extracting: F:\syslinux\ethersel.c32 (2.7 KB)
+Extracting: F:\syslinux\gfxboot.c32 (10.2 KB)
+Extracting: F:\syslinux\gpxecmd.c32 (1.5 KB)
+Extracting: F:\syslinux\hdt\modalias.gz (156.9 KB)
+Extracting: F:\syslinux\hdt\pciids.gz (305.7 KB)
+Extracting: F:\syslinux\hdt.c32 (163.1 KB)
+Extracting: F:\syslinux\hexdump.c32 (3.6 KB)
+Extracting: F:\syslinux\host.c32 (1.7 KB)
+Extracting: F:\syslinux\ifcpu.c32 (4 KB)
+Extracting: F:\syslinux\ifcpu64.c32 (1.7 KB)
+Extracting: F:\syslinux\ifmemdsk.c32 (4.1 KB)
+Extracting: F:\syslinux\ifplop.c32 (1.8 KB)
+Extracting: F:\syslinux\isohdpfx.bin (432 bytes)
+Extracting: F:\syslinux\isolinux.bin (38 KB)
+Extracting: F:\syslinux\kbdmap.c32 (1.6 KB)
+Extracting: F:\syslinux\kontron_wdt.c32 (4.7 KB)
+Extracting: F:\syslinux\ldlinux.c32 (116.9 KB)
+Extracting: F:\syslinux\lfs.c32 (5.0 KB)
+Extracting: F:\syslinux\libcom32.c32 (165.8 KB)
+Extracting: F:\syslinux\libgpl.c32 (66.0 KB)
+Extracting: F:\syslinux\liblua.c32 (100.1 KB)
+Extracting: F:\syslinux\libmenu.c32 (23.4 KB)
+Extracting: F:\syslinux\libutil.c32 (23.3 KB)
+Extracting: F:\syslinux\linux.c32 (4.6 KB)
+Extracting: F:\syslinux\lpxelinux.0 (73.8 KB)
+Extracting: F:\syslinux\ls.c32 (2.9 KB)
+Extracting: F:\syslinux\lua.c32 (6.7 KB)
+Extracting: F:\syslinux\mboot.c32 (10.6 KB)
+Extracting: F:\syslinux\memdisk (26.2 KB)
+Extracting: F:\syslinux\meminfo.c32 (2.4 KB)
+Extracting: F:\syslinux\menu.c32 (25.6 KB)
+Extracting: F:\syslinux\pci.c32 (3.2 KB)
+Extracting: F:\syslinux\pcitest.c32 (3.4 KB)
+Extracting: F:\syslinux\pmload.c32 (2.9 KB)
+Extracting: F:\syslinux\poweroff.c32 (1.6 KB)
+Extracting: F:\syslinux\prdhcp.c32 (3 KB)
+Extracting: F:\syslinux\pwd.c32 (1.4 KB)
+Extracting: F:\syslinux\pxechn.c32 (12.1 KB)
+Extracting: F:\syslinux\reboot.c32 (1.3 KB)
+Extracting: F:\syslinux\rosh.c32 (13.6 KB)
+Extracting: F:\syslinux\sanboot.c32 (1.6 KB)
+Extracting: F:\syslinux\sdi.c32 (2.9 KB)
+Extracting: F:\syslinux\splash.png (215 KB)
+Extracting: F:\syslinux\sysdump.c32 (14.5 KB)
+Extracting: F:\syslinux\syslinux.c32 (8.6 KB)
+Extracting: F:\syslinux\syslinux.cfg (153 bytes)
+Extracting: F:\syslinux\vesa.c32 (2.9 KB)
+Extracting: F:\syslinux\vesainfo.c32 (2.1 KB)
+Extracting: F:\syslinux\vesamenu.c32 (26.1 KB)
+Extracting: F:\syslinux\vpdtest.c32 (1.8 KB)
+Extracting: F:\syslinux\whichsys.c32 (2.4 KB)
+Extracting: F:\syslinux\zzjson.c32 (3.5 KB)
+Created: F:\syslinux.cfg → /syslinux/syslinux.cfg
+Finalizing, please wait...
+Created: F:autorun.inf
+Created: F:autorun.ico
+
+Found USB 2.0 device 'Kingston DataTraveler 3.0 USB Device' (0951:1666)
+NOTE: This device is a USB 3.0 device operating at lower speed...
+Using 'autorun.inf' label for drive F: 'EOS_202303'
+Found USB 3.0 device 'Apacer Portable HDD USB Device' (1005:C004)
+Device eliminated because it was detected as a Hard Drive (score 28 > 0)
+If this device is not a Hard Drive, please e-mail the author of this application
+NOTE: You can enable the listing of Hard Drives under 'advanced drive properties'
+1 device found
+Disk type: Removable, Disk size: 64 GB, Sector size: 512 bytes
+Cylinders: 7538, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x058223BA
+Drive has a Syslinux Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Detected File System: FAT32
+  Size: 57.7 GB (62007541760 bytes)
+  Start Sector: 2048, Boot: Yes
